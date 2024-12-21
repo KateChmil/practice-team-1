@@ -1,1 +1,1 @@
-{"version":3,"file":"index.js","sources":[],"sourcesContent":[],"names":[],"mappings":""}
+{"version":3,"file":"index.js","sources":["../src/main.js"],"sourcesContent":["const faqs = document.querySelectorAll(\".faq-item\");\n\nfaqs.forEach(faq => {\n    faq.addEventListener(\"click\", () => {\n        faq.classList.toggle(\"active\")\n    })\n})\n\n"],"names":["faqs","faq"],"mappings":"ssBAAA,MAAMA,EAAO,SAAS,iBAAiB,WAAW,EAElDA,EAAK,QAAQC,GAAO,CAChBA,EAAI,iBAAiB,QAAS,IAAM,CAChCA,EAAI,UAAU,OAAO,QAAQ,CACrC,CAAK,CACL,CAAC"}
