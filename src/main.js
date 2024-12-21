@@ -1,3 +1,8 @@
-import Accordion from 'accordion-js';
-import 'accordion-js/dist/accordion.min.css';
+const faqs = document.querySelectorAll(".faq-item");
+
+faqs.forEach(faq => {
+    faq.addEventListener("click", () => {
+        faq.classList.toggle("active")
+    })
+})
 
