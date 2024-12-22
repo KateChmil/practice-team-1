@@ -16,6 +16,8 @@
   display: flex;
   flex-direction: column;
   gap: 32px;
+  /*fixed-1*/
+  justify-content: space-between;
 }
 
 .benefits-title {
@@ -58,7 +60,8 @@ display: flex;
     background: #242527;
     width: 100%;
     box-sizing: border-box;
-    max-width: 344px;
+    /*fixed-6*/
+    width: 344px;
 
 }
 
@@ -93,6 +96,9 @@ display: flex;
 }
 
 .benef-item-text {
+  /*fixed-5*/
+  font-family: "Inter Tight", sans-serif;
+
   font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -147,7 +153,17 @@ display: flex;
     flex-direction: row;
      gap: 412px;
   }
- 
+  /*fixed-2,3,4*/
+  .benef-item {
+    max-width: 332px;
+  } 
+
+ .benef-list {
+ max-width: 680px;
+ }
+ .benef-textbox {
+  max-width: 284px;
+ }
  }
 
 
@@ -238,6 +254,8 @@ display: flex;
     color: #fafafa;
     
     max-width: 260px;
+    /*added*/
+    font-family: "Inter Tight", sans-serif;
  }
 
  .faq-icon {
@@ -319,8 +337,7 @@ display: flex;
 
  /** DESKTOP **/
  @media screen and (min-width: 1440px) {
-
-  
+ 
   .two-lists {
     display: flex;
     flex-direction: row;;
